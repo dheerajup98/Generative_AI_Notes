@@ -1,4 +1,4 @@
-📚 Generative AI Learning Notes – Rohit Negi
+📚 Generative AI Learning Notes
 
 1️⃣ Introduction to Generative AI(GEN AI)
 
@@ -61,5 +61,40 @@ Calculator / Code Interpreter → Perform exact math or code execution.
 
 Database Query → Retrieve structured data.
 
-Custom API → Weather, stock prices, translation, etc.
+Custom API → Weather, stock prices, translation, etc
+
+
+🚀 Today I learned how to build a Chatbot for Specific Purposes
+
+🎯 Start with a specific problem (customer queries, healthcare FAQs, interview prep, appointment booking).
+
+📚 Train the chatbot on domain-focused data, not random conversations.
+
+⚡ Connect it with external APIs so it can take action (book, fetch, notify).
+
+🔄 Continuously refine it using real user feedback.
+
+🔹 Behind the Scenes – How It Works
+
+1. Pre-processing
+
+Clean + normalize text (remove noise, spelling corrections)
+Detect intent (NLP/LLM prompt engineering)
+
+2. LLM Core (Brain of Chatbot)
+
+Load domain knowledge base (FAQs, PDFs, database, APIs).
+Retrieval-Augmented Generation (RAG) → fetch relevant data, then pass to LLM.
+
+3. Action Layer (External Tools)
+
+Connect APIs (CRM, booking system, payments, calendar).
+Executes tasks (e.g., book appointment, fetch order status, send email).
+
+Learning Loop
+
+4. Store conversation logs.
+
+Analyze failures (when bot couldn’t answer).
+Retrain/fine-tune on new data.
 
